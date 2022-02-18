@@ -1,0 +1,19 @@
+.about {
+  width: 70%;
+  height: auto;
+  background-color: $white;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  h2 {
+    font-size: $FontSizeSectHeader;
+    font-family: $FontHeader;
+    color: $black;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: $FontSizeSideBody;
+    font-family: $FontBody;
+    margin-bottom: 10px;
+  }
+}

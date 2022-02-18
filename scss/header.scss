@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+  height: 100%;
+  background-color: $blue;
+
+  h1 {
+    font-size: $FontSizeWebHeader;
+    font-family: $FontHeader;
+    color: $white;
+    padding-top: 55px;
+    margin-left: 15px;
+  }
+  h2 {
+    font-size: $FontSizeSectHeader;
+    font-family: $FontHeader;
+    color: $white;
+    margin-top: -15px;
+    margin-left: 15px;
+  }
+
+  .navBar {
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    background-color: $blue;
+    position: fixed;
+    top: 0;
+
+    nav {
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      border: 2px;
+      border-style: solid;
+      border-color: transparent transparent $white transparent;
+
+      a {
+        font-size: $FontSizeSideBody;
+        font-family: $FontBody;
+        text-decoration: none;
+        color: $white;
+      }
+      a:hover {
+        color: $gray;
+      }
+      p {
+        font-size: $FontSizeSideBody;
+        font-family: $FontBody;
+        color: $white;
+      }
+    }
+  }
+  .headerImg {
+    width: 100%;
+    height: 475px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, $grayGradient, $grayGradient),
+      url(../assets/Hero.png);
+  }
+}

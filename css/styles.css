@@ -23,3 +23,192 @@ p {
 .stress {
   font-weight: bold;
 }
+
+.header {
+  width: 100%;
+  height: 100%;
+  background-color: RGB(7, 19, 48);
+}
+.header h1 {
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: RGB(255, 255, 255);
+  padding-top: 55px;
+  margin-left: 15px;
+}
+.header h2 {
+  font-size: 32px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: RGB(255, 255, 255);
+  margin-top: -15px;
+  margin-left: 15px;
+}
+.header .navBar {
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  background-color: RGB(7, 19, 48);
+  position: fixed;
+  top: 0;
+}
+.header .navBar nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  border: 2px;
+  border-style: solid;
+  border-color: transparent transparent RGB(255, 255, 255) transparent;
+}
+.header .navBar nav a {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: RGB(255, 255, 255);
+}
+.header .navBar nav a:hover {
+  color: RGB(168, 168, 168);
+}
+.header .navBar nav p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: RGB(255, 255, 255);
+}
+.header .headerImg {
+  width: 100%;
+  height: 475px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, RGB(168, 168, 168, 0.7), RGB(168, 168, 168, 0.7)), url(../assets/Hero.png);
+}
+
+.projects {
+  width: 90%;
+  height: auto;
+  background-color: RGB(255, 255, 255);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.projects h2 {
+  font-size: 32px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: RGB(0, 0, 0);
+}
+.projects .projectList {
+  width: 100%;
+  padding-top: 10px;
+  border: 2px;
+  border-style: solid;
+  border-color: transparent transparent RGB(168, 168, 168) transparent;
+}
+.projects .projectList .projectsRow {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.projects .projectList .projectsRow a {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: RGB(0, 0, 0);
+}
+.projects .projectList .projectsRow a:hover {
+  color: RGB(168, 168, 168);
+}
+.projects .projectList .projectsRow p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.resume {
+  width: 80%;
+  height: auto;
+  background-color: RGB(255, 255, 255);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.resume a {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.resume a:hover {
+  color: RGB(168, 168, 168);
+}
+.resume h2 {
+  font-size: 32px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: RGB(0, 0, 0);
+  margin-bottom: 30px;
+}
+.resume h3 {
+  font-size: 28px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: RGB(0, 0, 0);
+  margin-top: 50px;
+}
+.resume h4 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: RGB(0, 0, 0);
+  margin-top: 30px;
+}
+.resume p,
+.resume li {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.about {
+  width: 70%;
+  height: auto;
+  background-color: RGB(255, 255, 255);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.about h2 {
+  font-size: 32px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: RGB(0, 0, 0);
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.contact {
+  width: 60%;
+  height: auto;
+  background-color: RGB(255, 255, 255);
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.contact h2 {
+  font-size: 32px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: RGB(0, 0, 0);
+  margin-bottom: 30px;
+}
+.contact p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: RGB(7, 19, 48);
+  text-align: center;
+}
+.footer p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: RGB(255, 255, 255);
+  padding-top: 50px;
+}
