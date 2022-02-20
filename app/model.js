@@ -26,8 +26,8 @@ var dGameDesignIdeasSection = `
   <h4>1.	Steampunk Climber</h4>
   <p>Inspired by Getting Over It, and Jump King, Steampunk Climber is a 2d pixel-based game where the player needs to jump, climb and parkour in a floating steampunk city to get to the top. The player would be able to move comfortably when on the ground but when in the air, the player would not be able to control their movement.</p>
   <div class="designIdeasImg1"></div>
-  <h4>2.	Racecar Tycoon</h4>
-  <p>A semi-idle game where the player controls a car, and every lap would produce money, money can be used to buy upgrades and other items that could increase the amount of money earned or give the player money every second. Since the game is an idle game, the game doesn't have an ending or goal to accomplish.</p>
+  <h4>2.	Sunken Together</h4>
+  <p>A first-person multiplayer or single player game where the player(s) manage a dysfunctional submarine and try their hardest to repair their ship as long as they can before their submarine explodes. Involves the player(s) prioritizing tasks that may come up.</p>
   <div class="designIdeasImg2"></div>
   <h4>3.	Shapeshifter</h4>
   <p>A multiplayer first-person shooter where the players would try to hunt down and kill a shape shifter in a spaceship. The shapeshifter is controlled by one player and could shapeshift as an object, or player; has elements of prop hunt and Among Us.</p>
@@ -44,14 +44,14 @@ var dGameDesignIdeasSection = `
   <h4>7.	Gates</h4>
   <p>A real time strategy where the player must use teleporting gates to move their units across different micro-zones which may carry different resources and such. The player must either destroy all other players or obtain a victory through controlling all gates.</p>
   <div class="designIdeasImg7"></div>
-  <h4>8.	Lithia: Sword of the broken reality</h4>
+  <h4>8.	Lithia: Sword of a broken reality</h4>
   <p>A role-playing game, inspired by many jrpgs, where the player lives in a floating world and must side with or without a faction. The battle system is a combination of real time action and turn based. is a 2d game and aesthetically is inspired by Octopath Traveler.</p>
   <div class="designIdeasImg8"></div>
   <h4>9.	 Bypass</h4>
   <p>A first-person horror game where the player must wiggle through a cave system avoiding monster and trying to avoid making sound. The player must explore a massive cave system and try to find their way up.</p>
   <div class="designIdeasImg9"></div>
-  <h4>10.	Sunken Together</h4>
-  <p>A first-person multiplayer or single player game where the player(s) manage a dysfunctional submarine and try their hardest to repair their ship as long as they can before their submarine explodes. Involves the player(s) prioritizing tasks that may come up.</p>
+  <h4>10.	Racecar Tycoon</h4>
+  <p>A semi-idle game where the player controls a car, and every lap would produce money, money can be used to buy upgrades and other items that could increase the amount of money earned or give the player money every second. Since the game is an idle game, the game doesn't have an ending or goal to accomplish.</p>
   <div class="designIdeasImg10"></div>
   <div class="designIdeasProtoGif1"></div>
   <div class="designIdeasProtoGif2"></div>
@@ -62,18 +62,25 @@ var dGameDesignIdeasSection = `
 var eMemorySection = `
 <div class="project">
   <h3>Working Game of Memory</h3>
-  <p>This is a working game of Memory made in Unity, it has many features like animation and sound.</p>
-  <div class="memoryGif1"></div>
-  <div class="memoryGif2"></div>
-  <div class="memoryGif3"></div>
+  <p>This is a working game of Memory I made in Unity. Though it was not required I decided to play around to post processing and lighting to get a good casino like enviroment for the game.</p>
+  <div class="projectProof">
+    <div class="memoryGif1"></div>
+    <p>The player can click on a card and it will flip over</p>
+    <div class="memoryGif2"></div>
+    <p>The player will be prompted with a win screen with the time they finished when they win</p>
+    <div class="memoryGif3"></div>
+    <p>The player can play again, and the cards will change spots when they do</p>
+  </div>
 </div>
 `;
 var fprogrammingProjectSection = `
-<h3>Seeds N' Scrap (Personal programming project)</h3>
-<p>This is Seeds N' Scrap a first person tower defense game where the player must defend their house with crops against a horde of bugs. This project was made with another colleague outside of school.</p>
-<div class="PersonalGif1"></div>
-<div class="PersonalGif2"></div>
-<div class="PersonalGif3"></div>
+<div class="project">
+  <h3>Seeds N' Scrap (Personal programming project)</h3>
+  <p>This is Seeds N' Scrap a first person tower defense game where the player must defend their house with crops against a horde of bugs. This project was made with another colleague outside of school.</p>
+  <div class="PersonalGif1"></div>
+  <div class="PersonalGif2"></div>
+  <div class="PersonalGif3"></div>
+</div>
 `;
 
 export function getPageContent(pageID) {

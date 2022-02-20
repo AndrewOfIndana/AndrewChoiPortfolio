@@ -39,4 +39,70 @@
       }
     }
   }
+
+  #app {
+    width: 80%;
+    margin: 0 auto;
+
+    .project {
+      margin-top: 20px;
+
+      h3 {
+        font-size: $FontSizeSubHeader;
+        font-family: $FontHeader;
+        color: $black;
+        margin-top: 50px;
+      }
+      h4 {
+        font-size: $FontSizeListHeader;
+        font-family: $FontBody;
+        color: $black;
+        margin-top: 30px;
+      }
+      p {
+        font-size: $FontSizeSideBody;
+        font-family: $FontBody;
+        margin-bottom: 10px;
+      }
+
+      .projectProof {
+        width: 550px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+        p {
+          font-size: $FontSizeSideBody;
+          font-family: $FontBody;
+          color: $gray;
+          margin-top: 10px;
+          margin-bottom: 30px;
+        }
+
+        .memoryGif1 {
+          height: 275px;
+          margin: 0 auto;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url(../assets/eMemory1.gif);
+        }
+        .memoryGif2 {
+          height: 275px;
+          margin: 0 auto;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url(../assets/eMemory2.gif);
+        }
+        .memoryGif3 {
+          height: 275px;
+          margin: 0 auto;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url(../assets/eMemory3.gif);
+        }
+      }
+    }
+  }
 }

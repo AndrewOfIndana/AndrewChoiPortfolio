@@ -121,6 +121,66 @@ p {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.projects #app {
+  width: 80%;
+  margin: 0 auto;
+}
+.projects #app .project {
+  margin-top: 20px;
+}
+.projects #app .project h3 {
+  font-size: 28px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: RGB(0, 0, 0);
+  margin-top: 50px;
+}
+.projects #app .project h4 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: RGB(0, 0, 0);
+  margin-top: 30px;
+}
+.projects #app .project p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+.projects #app .project .projectProof {
+  width: 550px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.projects #app .project .projectProof p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: RGB(168, 168, 168);
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.projects #app .project .projectProof .memoryGif1 {
+  height: 275px;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eMemory1.gif);
+}
+.projects #app .project .projectProof .memoryGif2 {
+  height: 275px;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eMemory2.gif);
+}
+.projects #app .project .projectProof .memoryGif3 {
+  height: 275px;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eMemory3.gif);
+}
 
 .resume {
   width: 80%;
