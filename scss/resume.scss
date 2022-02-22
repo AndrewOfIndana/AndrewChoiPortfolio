@@ -4,6 +4,7 @@
   background-color: $white;
   margin: 0 auto;
   margin-top: 50px;
+  margin-bottom: 200px;
 
   a {
     font-size: $FontSizeSideBody;
@@ -35,5 +36,18 @@
     font-size: $FontSizeSideBody;
     font-family: $FontBody;
     margin-bottom: 10px;
+  }
+
+  .resumeOverview {
+    width: 100%;
+
+    .resumeCol {
+      display: flex;
+      justify-content: space-evenly;
+
+      .resumeTile {
+        width: 300px;
+      }
+    }
   }
 }

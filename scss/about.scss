@@ -1,9 +1,10 @@
 .about {
-  width: 70%;
+  width: 80%;
   height: auto;
   background-color: $white;
   margin: 0 auto;
   margin-top: 50px;
+  margin-bottom: 200px;
 
   h2 {
     font-size: $FontSizeSectHeader;
@@ -11,9 +12,25 @@
     color: $black;
     margin-bottom: 30px;
   }
-  p {
-    font-size: $FontSizeSideBody;
-    font-family: $FontBody;
-    margin-bottom: 10px;
+  .aboutMeTable {
+    display: flex;
+    justify-content: space-between;
+
+    .aboutImg {
+      width: 250px;
+      height: 250px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url(../assets/AboutImg.jpg);
+      overflow: hidden;
+      border-radius: 125px;
+    }
+    p {
+      width: 750px;
+      font-size: 20px;
+      font-family: $FontBody;
+      margin-bottom: 10px;
+    }
   }
 }

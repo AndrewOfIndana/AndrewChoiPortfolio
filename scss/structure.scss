@@ -23,3 +23,40 @@ p {
 .stress {
   font-weight: bold;
 }
+
+.SectionImg1 {
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, $grayGradient, $grayGradient),
+    url(../assets/Hero1.jpg);
+}
+.SectionImg2 {
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, $grayGradient, $grayGradient),
+    url(../assets/Hero2.jpg);
+}
+.SectionImg3 {
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, $grayGradient, $grayGradient),
+    url(../assets/Hero3.jpg);
+}
+.SectionImg4 {
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, $grayGradient, $grayGradient),
+    url(../assets/Hero4.jpg);
+}

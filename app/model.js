@@ -25,37 +25,72 @@ var dGameDesignIdeasSection = `
   <p>These are 10 game design ideas that I have thought of some of these ideas I am thinking of making game out of, some might be repurposed into other games, and some might flat out be shelved. However over the course of my game design career, I am hoping that some of these ideas see life in my games.</p>
   <h4>1.	Steampunk Climber</h4>
   <p>Inspired by Getting Over It, and Jump King, Steampunk Climber is a 2d pixel-based game where the player needs to jump, climb and parkour in a floating steampunk city to get to the top. The player would be able to move comfortably when on the ground but when in the air, the player would not be able to control their movement.</p>
-  <div class="designIdeasImg1"></div>
+  <div class="projectProof">
+    <div class="designIdeasImg1"></div>
+    <p>A sketch of the level design Steampunk Climber</p>
+  </div>
   <h4>2.	Sunken Together</h4>
   <p>A first-person multiplayer or single player game where the player(s) manage a dysfunctional submarine and try their hardest to repair their ship as long as they can before their submarine explodes. Involves the player(s) prioritizing tasks that may come up.</p>
-  <div class="designIdeasImg2"></div>
+  <div class="projectProof">
+    <div class="designIdeasImg2"></div>
+    <p>A sketch of the map of Sunken Together</p>
+  </div>
   <h4>3.	Shapeshifter</h4>
   <p>A multiplayer first-person shooter where the players would try to hunt down and kill a shape shifter in a spaceship. The shapeshifter is controlled by one player and could shapeshift as an object, or player; has elements of prop hunt and Among Us.</p>
-  <div class="designIdeasImg3"></div>
+  <div class="projectProof">
+    <div class="designIdeasImg3"></div>
+    <p>A sketch of a the map of Shapeshifter</p>
+  </div>
   <h4>4.	Moon Trail</h4>
   <p>A small game where the player must use the moonlight to walk to the right path, perfect material for more story-based experience.</p>
-  <div class="designIdeasImg4"></div>
+  <div class="projectProof">
+    <div class="designIdeasImg4"></div>
+    <p>A sketch of the game mechanics of Moon Trail</p>
+  </div>
   <h4>5.	Drifting White Sail</h4>
   <p>Rouge-like time tracking, rpg, move your ship to islands, random encounters, goal is to level up and buy really good equipment and fight the boss in the center in 30 in game days, all about time management, and getting the perfect run. </p>
-  <div class="designIdeasImg5"></div>
+  <div class="projectProof">
+    <div class="designIdeasImg5"></div>
+    <p>A sketch of concept art of Drifting White Sail</p>
+  </div>
   <h4>6.	Scurry Away</h4>
   <p>A game where the player is a rat in a house. The player must maintain their hunger, and thirst, while trying to survive in the house. As the game goes on the difficultly increases, with more traps, poisons, and cats may appear to kill the player.</p>
-  <div class="designIdeasImg6"></div>
+  <div class="projectProof">
+    <div class="designIdeasImg6"></div>
+    <p>A sketch of concept art of Scurry Away</p>
+  </div>
   <h4>7.	Gates</h4>
   <p>A real time strategy where the player must use teleporting gates to move their units across different micro-zones which may carry different resources and such. The player must either destroy all other players or obtain a victory through controlling all gates.</p>
-  <div class="designIdeasImg7"></div>
+  <div class="projectProof">
+    <div class="designIdeasImg7"></div>
+    <p>A sketch of a gameplay of Gates</p>
+  </div>
   <h4>8.	Lithia: Sword of a broken reality</h4>
   <p>A role-playing game, inspired by many jrpgs, where the player lives in a floating world and must side with or without a faction. The battle system is a combination of real time action and turn based. is a 2d game and aesthetically is inspired by Octopath Traveler.</p>
-  <div class="designIdeasImg8"></div>
+  <div class="projectProof">
+    <div class="designIdeasImg8"></div>
+    <p>A sketch of a gameplay of Lithia: Sword of a broken reality</p>
+  </div>
   <h4>9.	 Bypass</h4>
   <p>A first-person horror game where the player must wiggle through a cave system avoiding monster and trying to avoid making sound. The player must explore a massive cave system and try to find their way up.</p>
-  <div class="designIdeasImg9"></div>
+  <div class="projectProof">
+    <div class="designIdeasImg9"></div>
+    <p>A sketch of a map of Bypass</p>
+  </div>
   <h4>10.	Racecar Tycoon</h4>
   <p>A semi-idle game where the player controls a car, and every lap would produce money, money can be used to buy upgrades and other items that could increase the amount of money earned or give the player money every second. Since the game is an idle game, the game doesn't have an ending or goal to accomplish.</p>
-  <div class="designIdeasImg10"></div>
-  <div class="designIdeasProtoGif1"></div>
-  <div class="designIdeasProtoGif2"></div>
-  <div class="designIdeasProtoGif3"></div>
+  <div class="projectProof">
+    <div class="designIdeasImg10"></div>
+    <p>A sketch of gameplay of Racecar Tycoon</p>
+  </div>
+  <div class="projectProof">
+    <div class="designIdeasProtoGif1"></div>
+    <p>A prototype of Racecar Tycoon</p>
+    <div class="designIdeasProtoGif2"></div>
+    <p>A demonstration of the shop and status screens</p>
+    <div class="designIdeasProtoGif3"></div>
+    <p>Buying an speed upgrade and driving faster</p>
+  </div>
 </div>
 `;
 
