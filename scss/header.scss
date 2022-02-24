@@ -1,39 +1,39 @@
 .header {
   width: 100%;
-  height: 175px;
-  background-color: $blue;
+  height: 100px;
+  background-color: $black;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
 
-  h1 {
-    font-size: $FontSizeWebHeader;
-    font-family: $FontHeader;
-    color: $white;
-    padding-top: 65px;
-    margin-left: 15px;
-  }
-  h2 {
-    font-size: $FontSizeSectHeader;
-    font-family: $FontHeader;
-    color: $white;
-    margin-top: -15px;
-    margin-left: 15px;
-  }
-
-  .navBar {
-    width: 100%;
-    height: 50px;
+  .headerTitle {
     padding-top: 10px;
-    background-color: $blue;
-    position: fixed;
-    top: 0;
+    margin-left: 30px;
+
+    h3 {
+      font-size: $FontSizeSubHeader;
+      font-family: $FontHeader;
+      color: $white;
+    }
+    h4 {
+      font-size: $FontSizeListHeader;
+      font-family: $FontHeader;
+      color: $white;
+      margin-top: -15px;
+    }
+  }
+
+  .headerNav {
+    width: 725px;
+    height: 50px;
+    padding-top: 40px;
 
     nav {
       width: 80%;
       display: flex;
       justify-content: space-around;
       margin: 0 auto;
-      border: 2px;
-      border-style: solid;
-      border-color: transparent transparent $white transparent;
 
       a {
         font-size: $FontSizeSideBody;

@@ -1,0 +1,174 @@
+.projects {
+  width: 100%;
+  height: auto;
+  background-color: $darkerGray;
+}
+#app {
+  width: 80%;
+  margin: 0 auto;
+
+  .project {
+    margin-top: 20px;
+
+    h3 {
+      font-size: $FontSizeSubHeader;
+      font-family: $FontHeader;
+      color: $black;
+      margin-top: 50px;
+    }
+    h4 {
+      font-size: $FontSizeListHeader;
+      font-family: $FontBody;
+      color: $black;
+      margin-top: 30px;
+    }
+    p {
+      font-size: $FontSizeSideBody;
+      font-family: $FontBody;
+      margin-bottom: 10px;
+    }
+
+    .projectProof {
+      width: 550px;
+      margin: 0 auto;
+      margin-top: 30px;
+
+      p {
+        font-size: $FontSizeSideBody;
+        font-family: $FontBody;
+        color: $gray;
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+      .designIdeasImg1 {
+        height: 500px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaImg01.jpg);
+      }
+      .designIdeasImg2 {
+        height: 500px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaImg02.jpg);
+      }
+      .designIdeasImg3 {
+        height: 500px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaImg03.jpg);
+      }
+      .designIdeasImg4 {
+        height: 500px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaImg04.jpg);
+      }
+      .designIdeasImg5 {
+        height: 500px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaImg05.jpg);
+      }
+      .designIdeasImg6 {
+        height: 500px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaImg06.jpg);
+      }
+      .designIdeasImg7 {
+        height: 500px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaImg07.jpg);
+      }
+      .designIdeasImg8 {
+        height: 500px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaImg08.jpg);
+      }
+      .designIdeasImg9 {
+        height: 500px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaImg09.jpg);
+      }
+      .designIdeasImg10 {
+        height: 500px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaImg10.jpg);
+      }
+      .designIdeasProtoGif1 {
+        height: 275px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaGameProtoGif1.gif);
+      }
+      .designIdeasProtoGif2 {
+        height: 275px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaGameProtoGif2.gif);
+      }
+      .designIdeasProtoGif3 {
+        height: 275px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/10DesignIdeaGameProtoGif3.gif);
+      }
+
+      .memoryGif1 {
+        height: 275px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/eMemory1.gif);
+      }
+      .memoryGif2 {
+        height: 275px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/eMemory2.gif);
+      }
+      .memoryGif3 {
+        height: 275px;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/eMemory3.gif);
+      }
+    }
+  }
+}

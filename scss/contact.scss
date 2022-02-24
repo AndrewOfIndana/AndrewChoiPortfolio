@@ -1,20 +1,27 @@
-.contact {
-  width: 80%;
-  height: auto;
-  background-color: $white;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 200px;
+#contactSection {
+  width: 100%;
+  height: 500px;
+  background-color: $darkerGray;
 
-  h2 {
-    font-size: $FontSizeSectHeader;
-    font-family: $FontHeader;
-    color: $black;
-    margin-bottom: 30px;
-  }
-  p {
-    font-size: $FontSizeSideBody;
-    font-family: $FontBody;
-    margin-bottom: 10px;
+  .contact {
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 125px;
+    background-color: $darkGray;
+    text-align: center;
+
+    h2 {
+      font-size: $FontSizeSectHeader;
+      font-family: $FontHeader;
+      color: $white;
+      padding-top: 50px;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: $FontSizeSideBody;
+      font-family: $FontBody;
+      color: $white;
+    }
   }
 }

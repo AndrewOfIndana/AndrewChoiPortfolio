@@ -1,211 +1,45 @@
-.projects {
-  width: 90%;
-  height: auto;
-  background-color: $white;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 200px;
+#projectsSection {
+  height: 400px;
+  width: 100%;
+  background-color: $darkerGray;
 
-  h2 {
-    font-size: $FontSizeSectHeader;
-    font-family: $FontHeader;
-    color: $black;
-  }
-
-  .projectList {
-    width: 100%;
-    padding-top: 10px;
-    border: 2px;
-    border-style: solid;
-    border-color: transparent transparent $gray transparent;
-
-    .projectsRow {
-      height: 50px;
-      display: flex;
-      justify-content: space-evenly;
-      padding-top: 10px;
-
-      a {
-        font-size: $FontSizeSideBody;
-        font-family: $FontBody;
-        text-decoration: none;
-        color: $black;
-      }
-      a:hover {
-        color: $gray;
-      }
-      p {
-        font-size: $FontSizeSideBody;
-        font-family: $FontBody;
-      }
-    }
-  }
-
-  #app {
-    width: 80%;
+  .projectsTitles {
+    width: 90%;
     margin: 0 auto;
+    padding-top: 100px;
 
-    .project {
-      margin-top: 20px;
+    h2 {
+      font-size: $FontSizeSectHeader;
+      font-family: $FontHeader;
+      color: $white;
+    }
+    p {
+      width: 800px;
+      font-size: $FontSizeMainBody;
+      font-family: $FontBody;
+      color: $white;
+      padding-top: 20px;
+    }
+    .projectNav {
+      width: 100%;
+      padding-top: 20px;
+      border: 2px;
+      border-style: solid;
+      border-color: transparent transparent $white transparent;
 
-      h3 {
-        font-size: $FontSizeSubHeader;
-        font-family: $FontHeader;
-        color: $black;
-        margin-top: 50px;
-      }
-      h4 {
-        font-size: $FontSizeListHeader;
-        font-family: $FontBody;
-        color: $black;
-        margin-top: 30px;
-      }
-      p {
-        font-size: $FontSizeSideBody;
-        font-family: $FontBody;
-        margin-bottom: 10px;
-      }
-
-      .projectProof {
-        width: 550px;
-        margin: 0 auto;
-        margin-top: 30px;
-
-        p {
+      .row {
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+        a {
           font-size: $FontSizeSideBody;
           font-family: $FontBody;
+          text-decoration: none;
           color: $gray;
-          margin-top: 10px;
-          margin-bottom: 30px;
         }
-        .designIdeasImg1 {
-          height: 500px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaImg01.jpg);
-        }
-        .designIdeasImg2 {
-          height: 500px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaImg02.jpg);
-        }
-        .designIdeasImg3 {
-          height: 500px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaImg03.jpg);
-        }
-        .designIdeasImg4 {
-          height: 500px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaImg04.jpg);
-        }
-        .designIdeasImg5 {
-          height: 500px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaImg05.jpg);
-        }
-        .designIdeasImg6 {
-          height: 500px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaImg06.jpg);
-        }
-        .designIdeasImg7 {
-          height: 500px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaImg07.jpg);
-        }
-        .designIdeasImg8 {
-          height: 500px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaImg08.jpg);
-        }
-        .designIdeasImg9 {
-          height: 500px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaImg09.jpg);
-        }
-        .designIdeasImg10 {
-          height: 500px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaImg10.jpg);
-        }
-        .designIdeasProtoGif1 {
-          height: 275px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaGameProtoGif1.gif);
-        }
-        .designIdeasProtoGif2 {
-          height: 275px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaGameProtoGif2.gif);
-        }
-        .designIdeasProtoGif3 {
-          height: 275px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/10DesignIdeaGameProtoGif3.gif);
-        }
-
-        .memoryGif1 {
-          height: 275px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/eMemory1.gif);
-        }
-        .memoryGif2 {
-          height: 275px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/eMemory2.gif);
-        }
-        .memoryGif3 {
-          height: 275px;
-          margin: 0 auto;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../assets/eMemory3.gif);
+        a:hover {
+          color: $darkGray;
         }
       }
     }

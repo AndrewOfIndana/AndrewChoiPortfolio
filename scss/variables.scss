@@ -1,17 +1,20 @@
 //Colors
 $blue: RGB(7, 19, 48);
 $gray: RGB(168, 168, 168);
+$darkGray: RGB(50, 50, 50);
+$darkerGray: RGB(10, 10, 10);
 $black: RGB(0, 0, 0);
 $white: RGB(255, 255, 255);
 $grayGradient: RGB(168, 168, 168, 0.7);
+$darkGrayGradient: RGB(50, 50, 50, 0.7);
 
 //Fonts
-$FontHeader: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+$FontHeader: Tahoma, Geneva, Verdana, sans-serif;
 $FontBody: Arial, Helvetica, sans-serif;
 
 //FontSize
-$FontSizeWebHeader: 40px;
-$FontSizeSectHeader: 32px;
+$FontSizeWebHeader: 75px;
+$FontSizeSectHeader: 50px;
 $FontSizeSubHeader: 28px;
 $FontSizeListHeader: 24px;
 $FontSizeMainBody: 20px;
