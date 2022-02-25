@@ -1,174 +1,180 @@
-.projects {
-  width: 100%;
-  height: auto;
-  background-color: $darkerGray;
+.aMedia1 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/aImg1.jpg);
 }
-#app {
-  width: 80%;
-  margin: 0 auto;
+.aMedia2 {
+  height: 400px;
+  width: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/AImg2.jpg);
+}
+.aMedia3 {
+  height: 400px;
+  width: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/aImg3.jpg);
+}
+.aMedia4 {
+  height: 500px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/aImg4.jpg);
+}
+.aMedia5 {
+  height: 500px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/aImg5.jpg);
+}
+.aMedia6 {
+  height: 500px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/aImg6.jpg);
+}
 
-  .project {
-    margin-top: 20px;
+.bMedia1 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+.bMedia2 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+.bMedia3 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+.bMedia4 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+.bMedia5 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
 
-    h3 {
-      font-size: $FontSizeSubHeader;
-      font-family: $FontHeader;
-      color: $black;
-      margin-top: 50px;
-    }
-    h4 {
-      font-size: $FontSizeListHeader;
-      font-family: $FontBody;
-      color: $black;
-      margin-top: 30px;
-    }
-    p {
-      font-size: $FontSizeSideBody;
-      font-family: $FontBody;
-      margin-bottom: 10px;
-    }
+.eMedia1 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eMemory1.gif);
+}
+.eMedia2 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eMemory2.gif);
+}
+.eMedia3 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eMemory3.gif);
+}
 
-    .projectProof {
-      width: 550px;
-      margin: 0 auto;
-      margin-top: 30px;
+.fMedia1 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+.fMedia2 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+.fMedia3 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+.fMedia4 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+.fMedia5 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
 
-      p {
-        font-size: $FontSizeSideBody;
-        font-family: $FontBody;
-        color: $gray;
-        margin-top: 10px;
-        margin-bottom: 30px;
-      }
-      .designIdeasImg1 {
-        height: 500px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaImg01.jpg);
-      }
-      .designIdeasImg2 {
-        height: 500px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaImg02.jpg);
-      }
-      .designIdeasImg3 {
-        height: 500px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaImg03.jpg);
-      }
-      .designIdeasImg4 {
-        height: 500px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaImg04.jpg);
-      }
-      .designIdeasImg5 {
-        height: 500px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaImg05.jpg);
-      }
-      .designIdeasImg6 {
-        height: 500px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaImg06.jpg);
-      }
-      .designIdeasImg7 {
-        height: 500px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaImg07.jpg);
-      }
-      .designIdeasImg8 {
-        height: 500px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaImg08.jpg);
-      }
-      .designIdeasImg9 {
-        height: 500px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaImg09.jpg);
-      }
-      .designIdeasImg10 {
-        height: 500px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaImg10.jpg);
-      }
-      .designIdeasProtoGif1 {
-        height: 275px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaGameProtoGif1.gif);
-      }
-      .designIdeasProtoGif2 {
-        height: 275px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaGameProtoGif2.gif);
-      }
-      .designIdeasProtoGif3 {
-        height: 275px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/10DesignIdeaGameProtoGif3.gif);
-      }
-
-      .memoryGif1 {
-        height: 275px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/eMemory1.gif);
-      }
-      .memoryGif2 {
-        height: 275px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/eMemory2.gif);
-      }
-      .memoryGif3 {
-        height: 275px;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/eMemory3.gif);
-      }
-    }
-  }
+.hMedia1 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/hProto1.gif);
+}
+.hMedia2 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/hProto2.gif);
+}
+.hMedia3 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/hProto3.gif);
 }

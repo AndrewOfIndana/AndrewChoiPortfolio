@@ -38,7 +38,7 @@ p {
   margin-left: 30px;
 }
 .header .headerTitle h3 {
-  font-size: 28px;
+  font-size: 40px;
   font-family: Tahoma, Geneva, Verdana, sans-serif;
   color: RGB(255, 255, 255);
 }
@@ -149,171 +149,273 @@ p {
   width: 100%;
   height: auto;
   background-color: RGB(10, 10, 10);
+  padding-bottom: 200px;
+}
+.projects a {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: RGB(168, 168, 168);
+  margin-left: 80px;
+}
+.projects a:hover {
+  color: RGB(50, 50, 50);
+}
+.projects #app {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.projects #app .projectsTemplate {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+.projects #app .projectsTemplate a {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: RGB(168, 168, 168);
+  margin-left: 0;
+  padding-top: 25px;
+}
+.projects #app .projectsTemplate a:hover {
+  color: RGB(50, 50, 50);
+}
+.projects #app .projectsTemplate .projectsRow {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+.projects #app .projectsTemplate .projectsRow .projectsWords {
+  width: 45%;
+  color: RGB(255, 255, 255);
+}
+.projects #app .projectsTemplate .projectsRow .projectsWords h3 {
+  font-size: 40px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.projects #app .projectsTemplate .projectsRow .projectsWords p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+}
+.projects #app .projectsTemplate .projectsRow .projectsMedia {
+  width: 45%;
+}
+.projects #app .projectsTemplate .projectsRow .projectsMedia p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  color: RGB(168, 168, 168);
+}
+.projects #app .projectsTemplate .projectsRow .projectsMediaSmall {
+  width: 30%;
+}
+.projects #app .projectsTemplate .projectsRow .projectsMediaSmall p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  color: RGB(168, 168, 168);
 }
 
-#app {
-  width: 80%;
-  margin: 0 auto;
+.aMedia1 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/aImg1.jpg);
 }
-#app .project {
-  margin-top: 20px;
+
+.aMedia2 {
+  height: 400px;
+  width: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/AImg2.jpg);
 }
-#app .project h3 {
-  font-size: 28px;
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
-  color: RGB(0, 0, 0);
-  margin-top: 50px;
+
+.aMedia3 {
+  height: 400px;
+  width: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/aImg3.jpg);
 }
-#app .project h4 {
-  font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: RGB(0, 0, 0);
-  margin-top: 30px;
-}
-#app .project p {
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 10px;
-}
-#app .project .projectProof {
-  width: 550px;
-  margin: 0 auto;
-  margin-top: 30px;
-}
-#app .project .projectProof p {
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: RGB(168, 168, 168);
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-#app .project .projectProof .designIdeasImg1 {
+
+.aMedia4 {
   height: 500px;
-  margin: 0 auto;
-  background-position: center;
+  width: 300px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaImg01.jpg);
+  background-image: url(../assets/aImg4.jpg);
 }
-#app .project .projectProof .designIdeasImg2 {
+
+.aMedia5 {
   height: 500px;
-  margin: 0 auto;
-  background-position: center;
+  width: 300px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaImg02.jpg);
+  background-image: url(../assets/aImg5.jpg);
 }
-#app .project .projectProof .designIdeasImg3 {
+
+.aMedia6 {
   height: 500px;
-  margin: 0 auto;
-  background-position: center;
+  width: 300px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaImg03.jpg);
+  background-image: url(../assets/aImg6.jpg);
 }
-#app .project .projectProof .designIdeasImg4 {
+
+.bMedia1 {
   height: 500px;
-  margin: 0 auto;
-  background-position: center;
+  width: 500px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaImg04.jpg);
+  background-image: url();
 }
-#app .project .projectProof .designIdeasImg5 {
+
+.bMedia2 {
   height: 500px;
-  margin: 0 auto;
-  background-position: center;
+  width: 500px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaImg05.jpg);
+  background-image: url();
 }
-#app .project .projectProof .designIdeasImg6 {
+
+.bMedia3 {
   height: 500px;
-  margin: 0 auto;
-  background-position: center;
+  width: 500px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaImg06.jpg);
+  background-image: url();
 }
-#app .project .projectProof .designIdeasImg7 {
+
+.bMedia4 {
   height: 500px;
-  margin: 0 auto;
-  background-position: center;
+  width: 500px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaImg07.jpg);
+  background-image: url();
 }
-#app .project .projectProof .designIdeasImg8 {
+
+.bMedia5 {
   height: 500px;
-  margin: 0 auto;
-  background-position: center;
+  width: 500px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaImg08.jpg);
+  background-image: url();
 }
-#app .project .projectProof .designIdeasImg9 {
-  height: 500px;
-  margin: 0 auto;
-  background-position: center;
+
+.eMedia1 {
+  height: 300px;
+  width: 500px;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaImg09.jpg);
-}
-#app .project .projectProof .designIdeasImg10 {
-  height: 500px;
-  margin: 0 auto;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaImg10.jpg);
-}
-#app .project .projectProof .designIdeasProtoGif1 {
-  height: 275px;
-  margin: 0 auto;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaGameProtoGif1.gif);
-}
-#app .project .projectProof .designIdeasProtoGif2 {
-  height: 275px;
-  margin: 0 auto;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaGameProtoGif2.gif);
-}
-#app .project .projectProof .designIdeasProtoGif3 {
-  height: 275px;
-  margin: 0 auto;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../assets/10DesignIdeaGameProtoGif3.gif);
-}
-#app .project .projectProof .memoryGif1 {
-  height: 275px;
-  margin: 0 auto;
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../assets/eMemory1.gif);
 }
-#app .project .projectProof .memoryGif2 {
-  height: 275px;
-  margin: 0 auto;
-  background-position: center;
+
+.eMedia2 {
+  height: 300px;
+  width: 500px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url(../assets/eMemory2.gif);
 }
-#app .project .projectProof .memoryGif3 {
-  height: 275px;
-  margin: 0 auto;
-  background-position: center;
+
+.eMedia3 {
+  height: 300px;
+  width: 500px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url(../assets/eMemory3.gif);
+}
+
+.fMedia1 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+
+.fMedia2 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+
+.fMedia3 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+
+.fMedia4 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+
+.fMedia5 {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+
+.hMedia1 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/hProto1.gif);
+}
+
+.hMedia2 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/hProto2.gif);
+}
+
+.hMedia3 {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/hProto3.gif);
 }
 
 #aboutSection {
