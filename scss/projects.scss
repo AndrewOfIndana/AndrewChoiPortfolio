@@ -101,7 +101,20 @@
             padding-top: 20px;
           }
         }
+        .projectsEssay {
+          width: 100%;
+          color: $white;
 
+          h3 {
+            font-size: $FontSizeSubHeader;
+            font-family: $FontHeader;
+          }
+          p {
+            font-size: $FontSizeMainBody;
+            font-family: $FontBody;
+            padding-top: 20px;
+          }
+        }
         .projectsMedia {
           width: 45%;
 

@@ -201,6 +201,19 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 20px;
 }
+.projects #app .projectsTemplate .projectsRow .projectsEssay {
+  width: 100%;
+  color: RGB(255, 255, 255);
+}
+.projects #app .projectsTemplate .projectsRow .projectsEssay h3 {
+  font-size: 40px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.projects #app .projectsTemplate .projectsRow .projectsEssay p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+}
 .projects #app .projectsTemplate .projectsRow .projectsMedia {
   width: 45%;
 }
@@ -235,7 +248,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/AImg2.jpg);
+  background-image: url(../assets/aImg2.jpg);
 }
 
 .aMedia3 {
@@ -275,48 +288,48 @@ p {
 }
 
 .bMedia1 {
-  height: 500px;
+  height: 300px;
   width: 500px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url();
+  background-image: url(../assets/bImg1.png);
 }
 
 .bMedia2 {
-  height: 500px;
+  height: 300px;
   width: 500px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url();
+  background-image: url(../assets/bImg2.png);
 }
 
 .bMedia3 {
-  height: 500px;
+  height: 300px;
   width: 500px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url();
+  background-image: url(../assets/bImg3.png);
 }
 
 .bMedia4 {
-  height: 500px;
+  height: 300px;
   width: 500px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url();
+  background-image: url(../assets/bImg4.png);
 }
 
 .bMedia5 {
-  height: 500px;
+  height: 300px;
   width: 500px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url();
+  background-image: url(../assets/bImg5.png);
 }
 
 .eMedia1 {
