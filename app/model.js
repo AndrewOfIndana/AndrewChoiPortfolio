@@ -134,30 +134,30 @@ var fProject = `
     </div>
   <div class="projectsMedia">
     <div class="fMedia1"></div>
-    <p>The title screen of the game, needs more post processing and time to really make the game look good</p>
+    <p>Insert disc</p>
   </div>
 </div>
 <div class="projectsRow">
   <div class="projectsMedia">
     <div class="fMedia2"></div>
-    <p>In the game the player has three tools, a watering can to water crops, a shovel to sell crops, and a gun to shoot, the player is shooting in this gif</p>
+    <p>Insert disc</p>
   </div>
   <div class="projectsMedia">
     <div class="fMedia3"></div>
-    <p>The player can pick up a packet of seeds to plant a crop and then they can water the crop to increase the strength of it, the orange box is a placeholder</p>
+    <p>Insert disc</p>
   </div>
 </div>
 <div class="projectsRow">
   <div class="projectsMedia">
     <div class="fMedia4"></div>
-    <p>The players crops can firing bullets and other projectiles at the bugs, the player must manage growing crops and making money to buy stronger crops</p>
+    <p>Insert disc</p>
   </div>
   <div class="projectsMedia">
     <div class="fMedia5"></div>
-    <p>The player buys crops from the farmers market, also by pressing escape the menu is opened</p>
+    <p>Insert disc</p>
   </div>
 </div>
-<a href="https://github.com/AndrewOfIndana/SeedsNScrap">Link to gitHub for this game</a>
+<a href="#">Link to gitHub for this game</a>
 </div>
 `;
 var hProject = `
