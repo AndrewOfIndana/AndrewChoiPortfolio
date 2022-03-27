@@ -1,7 +1,7 @@
 #projectsSection {
   height: 400px;
   width: 100%;
-  background-color: $darkerGray;
+  background-color: $darkGray;
 
   .projectsTitles {
     width: 90%;
@@ -36,10 +36,10 @@
           font-size: $FontSizeSideBody;
           font-family: $FontBody;
           text-decoration: none;
-          color: $gray;
+          color: $blue;
         }
         a:hover {
-          color: $darkGray;
+          color: $darkBlue;
         }
       }
     }
@@ -48,17 +48,17 @@
 .projects {
   width: 100%;
   height: auto;
-  background-color: $darkerGray;
+  background-color: $darkGray;
   padding-bottom: 200px;
   a {
     font-size: $FontSizeMainBody;
     font-family: $FontBody;
     text-decoration: none;
-    color: $gray;
+    color: $blue;
     margin-left: 80px;
   }
   a:hover {
-    color: $darkGray;
+    color: $darkBlue;
   }
   #app {
     width: 80%;
@@ -75,12 +75,12 @@
         font-size: $FontSizeMainBody;
         font-family: $FontBody;
         text-decoration: none;
-        color: $gray;
+        color: $blue;
         margin-left: 0;
         padding-top: 25px;
       }
       a:hover {
-        color: $darkGray;
+        color: $darkBlue;
       }
       .projectsRow {
         display: flex;
@@ -122,7 +122,7 @@
             font-size: $FontSizeSideBody;
             font-family: $FontBody;
             padding-top: 10px;
-            color: $gray;
+            color: $lightGray;
           }
         }
         .projectsMediaSmall {
@@ -132,7 +132,7 @@
             font-size: $FontSizeSideBody;
             font-family: $FontBody;
             padding-top: 10px;
-            color: $gray;
+            color: $lightGray;
           }
         }
       }
