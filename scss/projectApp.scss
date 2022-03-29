@@ -1,0 +1,91 @@
+#projects {
+  height: auto;
+  width: 80%;
+  background-color: $darkGray;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  color: $white;
+
+  h3 {
+    font-size: $FontSizeSectSubHeader;
+    font-family: $FontHeader;
+  }
+
+  .projectContent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding-top: 20px;
+
+    h4 {
+      font-size: $FontSizeListHeader;
+      font-family: $FontHeader;
+    }
+    p {
+      font-size: $FontSizeMainBody;
+      font-family: $FontBody;
+      padding-top: 20px;
+    }
+    a {
+      font-size: $FontSizeMainBody;
+      font-family: $FontBody;
+      text-decoration: none;
+      color: $blue;
+      margin-left: 0;
+      padding-top: 25px;
+    }
+    a:hover {
+      color: $darkBlue;
+    }
+    .projectEssay {
+      p {
+        font-size: $FontSizeMainBody;
+        font-family: $FontEssay;
+        text-indent: 75px;
+        padding-top: 20px;
+      }
+    }
+
+    .projectRow {
+      height: auto;
+      display: flex;
+      margin-bottom: 40px;
+      justify-content: space-between;
+
+      .projectText {
+        width: 100%;
+      }
+      .projectTextLeft {
+        width: 100%;
+        margin-left: 50px;
+      }
+      .projectTextRight {
+        width: 100%;
+        margin-right: 50px;
+      }
+      .projectMedia {
+        width: auto;
+
+        p {
+          font-size: $FontSizeSideBody;
+          font-family: $FontBody;
+          padding-top: 10px;
+          color: $lightGray;
+        }
+      }
+      .projectMediaCol {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        p {
+          font-size: $FontSizeSideBody;
+          font-family: $FontBody;
+          padding-top: 10px;
+          color: $lightGray;
+        }
+      }
+    }
+  }
+}

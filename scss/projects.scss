@@ -1,5 +1,5 @@
 #projectsSection {
-  height: 400px;
+  height: auto;
   width: 100%;
   background-color: $darkGray;
 
@@ -7,7 +7,6 @@
     width: 90%;
     margin: 0 auto;
     padding-top: 100px;
-
     h2 {
       font-size: $FontSizeSectHeader;
       font-family: $FontHeader;
@@ -26,11 +25,10 @@
       border: 2px;
       border-style: solid;
       border-color: transparent transparent $white transparent;
-
       .row {
         height: 50px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding-top: 10px;
         a {
           font-size: $FontSizeSideBody;
@@ -40,100 +38,6 @@
         }
         a:hover {
           color: $darkBlue;
-        }
-      }
-    }
-  }
-}
-.projects {
-  width: 100%;
-  height: auto;
-  background-color: $darkGray;
-  padding-bottom: 200px;
-  a {
-    font-size: $FontSizeMainBody;
-    font-family: $FontBody;
-    text-decoration: none;
-    color: $blue;
-    margin-left: 80px;
-  }
-  a:hover {
-    color: $darkBlue;
-  }
-  #app {
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-
-    .projectsTemplate {
-      display: flex;
-      flex-direction: column;
-      padding-top: 20px;
-      margin-bottom: 100px;
-
-      a {
-        font-size: $FontSizeMainBody;
-        font-family: $FontBody;
-        text-decoration: none;
-        color: $blue;
-        margin-left: 0;
-        padding-top: 25px;
-      }
-      a:hover {
-        color: $darkBlue;
-      }
-      .projectsRow {
-        display: flex;
-        margin-bottom: 40px;
-        justify-content: space-between;
-
-        .projectsWords {
-          width: 45%;
-          color: $white;
-
-          h3 {
-            font-size: $FontSizeSubHeader;
-            font-family: $FontHeader;
-          }
-          p {
-            font-size: $FontSizeMainBody;
-            font-family: $FontBody;
-            padding-top: 20px;
-          }
-        }
-        .projectsEssay {
-          width: 100%;
-          color: $white;
-
-          h3 {
-            font-size: $FontSizeSubHeader;
-            font-family: $FontHeader;
-          }
-          p {
-            font-size: $FontSizeMainBody;
-            font-family: $FontBody;
-            padding-top: 20px;
-          }
-        }
-        .projectsMedia {
-          width: 45%;
-
-          p {
-            font-size: $FontSizeSideBody;
-            font-family: $FontBody;
-            padding-top: 10px;
-            color: $lightGray;
-          }
-        }
-        .projectsMediaSmall {
-          width: 30%;
-
-          p {
-            font-size: $FontSizeSideBody;
-            font-family: $FontBody;
-            padding-top: 10px;
-            color: $lightGray;
-          }
         }
       }
     }
