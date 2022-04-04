@@ -380,6 +380,61 @@ p {
   margin-bottom: 40px;
 }
 
+.dMedia01 {
+  width: 500px;
+}
+.dMedia01 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/dScr01.png);
+}
+
+.dMedia02 {
+  width: 500px;
+}
+.dMedia02 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/dScr02.gif);
+}
+
+.dMedia03 {
+  width: 500px;
+}
+.dMedia03 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/dScr03.gif);
+}
+
+.dMedia04 {
+  width: 500px;
+}
+.dMedia04 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/dScr04.png);
+}
+
+.dMedia05 {
+  width: 500px;
+}
+.dMedia05 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/dScr05.gif);
+}
+
 #aboutSection {
   width: 100%;
   height: 700px;

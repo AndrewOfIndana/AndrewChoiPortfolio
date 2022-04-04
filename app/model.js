@@ -199,7 +199,68 @@ var cProject = `
     </div>
 </div>
 `;
-
+var dProject = `
+<h3>Game of Memory</h3>
+<div class="projectContent">
+    <div class="projectRow">
+        <div class="projectTextRight">
+            <p>
+                This is a game of memory I had made in Unity in one day, I took some assets from the store, and I used tutorials to help me understand how it would all work, but the actual work, the post processing, and framing of the game was all made by me.                         
+            </p>
+        </div>
+        <div class="projectMedia">
+            <div class="dMedia01">
+                <div class="source"></div>
+                <p>The player starts with twelve cards facing down, and they must match two of the same cards until there are no more cards facing down</p>
+            </div>
+        </div>    
+    </div>
+    <h4>The Process</h4>
+    <div class="projectRow">
+        <div class="projectMedia">
+            <div class="dMedia02">
+                <div class="source"></div>
+                <p>The player can click on a card to flip it over, they can then flip another card and if the cards match they stay facing up, while if the player picks the wrong card the cards will face down and the player won't be able to do anything for a couple of seconds.</p>
+            </div>
+        </div>    
+        <div class="projectTextLeft">
+            <p>
+                I started by planning out how the game would be like, whether it would be in 2d or 3d, and thinking about what features need to be implemented. Next, I would make the project and set everything up, importing assets and setting up the camera angle. Then I would set up the visual aspect first by making a table and putting down some cards. Then came the coding process, which, though I watched a tutorial to base the programming on, I made most if not all of the code myself by using what I knew along with what the tutorial was teaching. Finally I connect my scripts with my game objects, and add post processing, and props to further enhance game feel.
+            </p>
+        </div>
+    </div>
+    <h4>Reflection</h4>
+    <div class="projectRow">
+        <div class="projectTextRight">
+            <p>
+                Despite the fact that this game was easily made, due to a lot of the work in the form of assets and general direction being done already, and the fact that memory isn't that difficult to program, I still find pride in my work. I also impressed with how fast I was able to make my game, which helps me understand that with enough planning, and experimenting, the game making process can be made easier.
+            </p>
+        </div>
+        <div class="projectMedia">
+            <div class="dMedia03">
+                <div class="source"></div>
+                <p>When the player match all twelve cards they win</p>
+            </div>
+        </div>    
+    </div>
+    <div class="projectRow">
+        <div class="projectMedia">
+            <div class="dMedia04">
+                <div class="source"></div>
+                <p>A full picture of the win screen, the player is given their time, and two option to either quit or replay the game</p>
+            </div>
+        </div>
+        <div class="projectMedia">
+            <div class="dMedia05">
+                <div class="source"></div>
+                <p>If the player decided to play again the cards will be in different positions, allowing for some deviation</p>
+            </div>
+        </div>    
+    </div>
+    <h4>GitHub</h4>
+    <a href="https://github.com/AndrewOfIndana/MemoryGame">Link to gitHub for this game</a>
+</div>
+`;
 export function getPageContent(pageID) {
     $("#projects").html(eval(pageID));
 }

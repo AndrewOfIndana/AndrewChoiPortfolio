@@ -1,28 +1,3 @@
-var dProject = `
-<div class="projectsTemplate">
-<div class="projectsRow">
-  <div class="projectsWords">
-    <h3>Working Game of Memory</h3>
-    <p>This is a working game of Memory I made in Unity. Though it was not required I decided to play around to post processing and lighting to get a good casino like enviroment for the game.</p>
-    </div>
-  <div class="projectsMedia">
-    <div class="eMedia1"></div>
-    <p>The player can click on a card and it will flip over</p>
-  </div>
-</div>
-<div class="projectsRow">
-  <div class="projectsMedia">
-    <div class="eMedia2"></div>
-    <p>The player will be prompted with a win screen with the time they finished when they win</p>
-  </div>
-  <div class="projectsMedia">
-    <div class="eMedia3"></div>
-    <p>The player can play again, and the cards will change spots when they do</p>
-  </div>
-</div>
-<a href="https://github.com/AndrewOfIndana/MemoryGame">Link to gitHub for this game</a>
-</div>
-`;
 var eProject = `
 <div class="projectsTemplate">
 <div class="projectsRow">
