@@ -261,6 +261,179 @@ var dProject = `
     <a href="https://github.com/AndrewOfIndana/MemoryGame">Link to gitHub for this game</a>
 </div>
 `;
+var eProject = `
+<h3>Seeds N' Scrap</h3>
+<div class="projectContent">
+    <div class="projectRow">
+        <div class="projectTextRight">
+            <p>
+                Seeds N' Scrap is a personal project, in Unity, that me and William Rubino, a co-developer, have been making for some time. The game is a first-person tower defense game where the player must defend their house from a horde of robotic bugs, using mechanical plant hybrid crops which act like towers. The player must learn how to manage time fighting bugs, and nurturing crops. The game is currently in WIP and has been for sometime, but even if the game will never finished, I have learned a lot about programming and using Unity from this project.
+            </p>
+        </div>
+        <div class="projectMedia">
+            <div class="eMedia01">
+                <div class="source"></div>
+                <p>The opening menu screen that the player first sees when opening the game, at this point only one map is playable.</p>
+            </div>
+        </div>    
+    </div>
+    <div class="projectRow">
+        <div class="projectMedia">
+            <div class="eMedia02">
+                <div class="source"></div>
+                <p>The first thing the player sees when hitting play, they are greeted to an open level with four plots of land, and some UI at the top left, indicated the current round, the amount of money, and the number of crops in the level.</p>
+            </div>
+        </div>
+        <div class="projectMedia">
+            <div class="eMedia03">
+                <div class="source"></div>
+                <p>The player can look around them and see nice terrain that they are in.</p>
+            </div>
+        </div>    
+    </div>
+    <h4>The Gameplay</h4>
+    <div class="projectRow">
+        <div class="projectMedia">
+            <div class="eMedia04">
+                <div class="source"></div>
+                <p>The bugs moving in a path to get to your house, the player can abuse their pathfinding to plant crops along the busy road.</p>
+            </div>
+        </div>    
+        <div class="projectTextLeft">
+            <p>
+                Crops are the towers of this game, without them, the player will lose to the endless hordes of bugs. To get a crop, the player must buy the seeds from the market, from there, the seeds will drop from the air and the player can grab the seeds and plant it in a soil tile. After planting, the crop will take time before it is fully matured, the player can water the plant to increase its score, as well as depending on the quality of the soil this can also increase the crops score. By increasing score the crop may receive a bonus to its stats depending on the amount of care it was given. The player must also sell crops to make money in order to buy more, stronger crops, upgrades, and even power ups. Throughout the game, the player must manage time, and resources to maximize profits, while defending their home.
+            </p>
+        </div>
+    </div>
+    <div class="projectRow">
+        <div class="projectMedia">
+            <div class="eMedia05">
+                <div class="source"></div>
+                <p>A full view of the farmer's market</p>
+            </div>
+        </div>
+        <div class="projectMedia">
+            <div class="eMedia06">
+                <div class="source"></div>
+                <p>After clicking on the crop's seed button, the seeds will drop from the sky.</p>
+            </div>
+        </div>    
+    </div>
+    <div class="projectRow">
+        <div class="projectMedia">
+            <div class="eMedia07">
+                <div class="source"></div>
+                <p>When the player holds the seed box in their hands they can hold left click while the seed is near soil to plant the crop.</p>
+            </div>
+        </div>
+        <div class="projectMedia">
+            <div class="eMedia08">
+                <div class="source"></div>
+                <p>The player can hold down right click to water plants, which will deplete the bar to the right.</p>
+            </div>
+        </div>    
+    </div>
+    <h4>The Player and Crops</h4>
+    <div class="projectRow">
+        <div class="projectTextRight">
+            <p>
+                As mentioned before the player can use a water can to water plants, they can also use water hoses to refill any water they use. They also have a shotgun which fire two shots before reloading, is powerful during the first couple of rounds, but is quickly made useless without upgrades, in the later rounds. Finally the player can also use a shovel which can sell crops for money, which can be used to buy more crops, upgrades, and other things. The crops themselves are very simple they will shoot at any bug that is nearby, depending on the crop they can fire missiles, bullets, lasers, and more. The player should use their crops to defend their home while also selling them to grow more crops to stay one step ahead of the bugs, as they will become stronger and faster as the rounds progress.
+            </p>
+        </div>
+        <div class="projectMedia">
+            <div class="eMedia09">
+                <div class="source"></div>
+                <p>The player shooting bugs with their shotgun</p>
+            </div>
+        </div>    
+    </div>
+    <div class="projectRow">
+        <div class="projectMedia">
+            <div class="eMedia10">
+                <div class="source"></div>
+                <p>The player refilling their watering can</p>
+            </div>
+        </div>
+        <div class="projectMedia">
+            <div class="eMedia11">
+                <div class="source"></div>
+                <p>The player selling their crop</p>
+            </div>
+        </div>    
+    </div>
+    <div class="projectRow">
+        <div class="projectMedia">
+            <div class="eMedia12">
+                <div class="source"></div>
+                <p>A crop tower shooting at bugs</p>
+            </div>
+        </div>
+        <div class="projectMedia">
+            <div class="eMedia13">
+                <div class="source"></div>
+                <p>Multiple different types of crops</p>
+            </div>
+        </div>    
+    </div>
+    <h4>Reflection</h4>
+    <div class="projectRow">
+        <div class="projectMedia">
+            <div class="eMedia14">
+                <div class="source"></div>
+                <p>The pause screen</p>
+            </div>
+        </div>    
+        <div class="projectTextLeft">
+            <p>
+                Looking back, I was really invested in this project, I would spend most if not all of my free time making this project work, so what do I think now. Right now, I feel burnt out from this project, all of the vigor that I had back then has kind of faded and now I no longer want to work on this anymore. One might ask, why feature this if I no longer like it as much as I did back then? This is because, This project has been the greatest learning process I have ever partook in. This project has not only taught me how to program with Unity, but it had also taught me to lower my expectation when it came to my own goals, originally I thought we should have implemented boss battles, building, and even multiplayer, but now I understand that burnout is a real thing that happens, and I shouldn't have made all those plans when I didn't even start making the basic framework for the game. Right now, the game is in hiatus, neither my partner nor I was to continue to work, but I think that is alright, because the lessons I have learned from making this game continue to help me even now.
+            </p>
+        </div>
+    </div>
+    <h4>GitHub</h4>
+    <a href="https://github.com/AndrewOfIndana/SeedsNScrap">Link to gitHub for this game</a>
+</div>
+`;
+var fProject = `
+<h3>Racecar Tycoon</h3>
+<div class="projectContent">
+    <div class="projectRow">
+        <div class="projectTextRight">
+            <p>
+                Another personal project I have worked on, the point of this game is to drive laps around the track and earn money. The money can be used to buy more ads to earn money, or upgrades to the car to either make it fast or slow. The player must balance speed and contorl in order to maximize the fastest build of the car. The player must race BIG RED the final and only boss of the game to win.
+            </p>
+        </div>
+        <div class="projectMedia">
+            <div class="fMedia01">
+                <div class="source"></div>
+                <p>The player racing around the track</p>
+            </div>
+        </div>    
+    </div>
+    <div class="projectRow">
+        <div class="projectMedia">
+            <div class="fMedia02">
+                <div class="source"></div>
+                <p>The player opening the Pitt Stop the shop of the game</p>
+            </div>
+        </div>    
+        <div class="projectMedia">
+            <div class="fMedia03">
+                <div class="source"></div>
+                <p>The player buying an upgrade to increase the speed of the car</p>
+            </div>
+        </div>    
+    </div>
+    <h4>Reflection and Plans for Overhauling</h4>
+    <div class="projectRow">
+        <p>
+            This is a game that I am not proud of at this state, I made this because I felt like I needed to make it for this portfolio. However I can say that I started to really think about how I could make this game fun, and I started to think about what where I could take this project. My plan for this project is to completely overhaul the story, objective and even feel of the game, instead of driving on one racetrack, the player will drive multiple cars across differently layers representing the solar system. Each track which will have a designated planet, will have different stipulations and rules to them, for example the Jupiter track is the longest track and has slowest car in the game, despite this if the player finishes a lap they will receive a large sum of money compared to other tracks, while another example would be the mars track where the player doesn't control any cars but has to bet their money one of the two cars, Phobos and Deimos, and if their car wins the race they win the bet. Just like the previous project, the player must tinker and experiment with their car for each layer, to get optimal speed and control. I also plan on adding a ending goal, that being reach the outer layer of solar system. I also plan to add more game feel to my game, since the current version lack a lot of flare and personality. Other than that, my plans are going to need some time, but when I get to this project, I should be ready to tackle what I outlined in this paragraph.
+        </p>
+    </div>
+    <h4>GitHub</h4>
+    <a href="https://github.com/AndrewOfIndana/RacecarTycoonProto">Link to gitHub for this game</a>
+</div>
+`;
+
 export function getPageContent(pageID) {
     $("#projects").html(eval(pageID));
 }

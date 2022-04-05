@@ -435,6 +435,193 @@ p {
   background-image: url(../assets/dScr05.gif);
 }
 
+.eMedia01 {
+  width: 500px;
+}
+.eMedia01 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr01.png);
+}
+
+.eMedia02 {
+  width: 500px;
+}
+.eMedia02 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr02.png);
+}
+
+.eMedia03 {
+  width: 500px;
+}
+.eMedia03 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr03.gif);
+}
+
+.eMedia04 {
+  width: 500px;
+}
+.eMedia04 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr04.gif);
+}
+
+.eMedia05 {
+  width: 500px;
+}
+.eMedia05 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr05.png);
+}
+
+.eMedia06 {
+  width: 500px;
+}
+.eMedia06 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr06.gif);
+}
+
+.eMedia07 {
+  width: 500px;
+}
+.eMedia07 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr07.png);
+}
+
+.eMedia08 {
+  width: 500px;
+}
+.eMedia08 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr08.png);
+}
+
+.eMedia09 {
+  width: 500px;
+}
+.eMedia09 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr09.gif);
+}
+
+.eMedia10 {
+  width: 500px;
+}
+.eMedia10 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr10.gif);
+}
+
+.eMedia11 {
+  width: 500px;
+}
+.eMedia11 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr11.png);
+}
+
+.eMedia12 {
+  width: 500px;
+}
+.eMedia12 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr12.png);
+}
+
+.eMedia13 {
+  width: 500px;
+}
+.eMedia13 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr13.png);
+}
+
+.eMedia14 {
+  width: 500px;
+}
+.eMedia14 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/eScr14.png);
+}
+
+.fMedia01 {
+  width: 500px;
+}
+.fMedia01 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/fScr01.gif);
+}
+
+.fMedia02 {
+  width: 500px;
+}
+.fMedia02 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/fScr02.gif);
+}
+
+.fMedia03 {
+  width: 500px;
+}
+.fMedia03 .source {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/fScr03.gif);
+}
+
 #aboutSection {
   width: 100%;
   height: 700px;
